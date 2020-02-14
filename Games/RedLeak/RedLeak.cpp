@@ -1,9 +1,9 @@
-#include "stdafx.h"
 #include <iostream>
 #include <mmsystem.h>
 #include <mciapi.h>
 #include <stdio.h>
 #include <Windows.h>
+
 using namespace std;
 
 #pragma comment(lib, "Winmm.lib")
@@ -102,22 +102,23 @@ void PlayGame()
 
 		
       
-       bool played = PlaySoundA(TEXT("SoundEffect.mp3",NULL,SND_SYNC));
 
 
 
     
-			 mciSendString("open \"SoundEffect.mp3\" type mpegvideo alias mp3", NULL, 0, NULL);
-       mciSendString( "setaudio \" SoundEffect.mp3 \" volume to 100",NULL, 0, NULL );
-			 mciSendString("play mp3", NULL, 0, NULL);
-			//open cd tray
-			mciSendString("set cdaudio door open", NULL, NULL, NULL);
-			//Turns of monitor
-			SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
-			Sleep(5000);
-			//turn back on
-			SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)-1);
-			Sleep(10000);
+	Sleep(5000);
+	SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
+	//turn back on
+	SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)-1);
+	Sleep(3000);
+	/*mciSendString(L"open \"SoundEffect.mp3\" type mpegvideo alias mp3", NULL, 0, NULL);
+	mciSendString(L"setaudio \" SoundEffect.mp3 \" volume to 100", NULL, 0, NULL);
+	mciSendString(L"play mp3", NULL, 0, NULL);*/
+
+	bool played = PlaySound(L"Motherland.wav", NULL, SND_SYNC);
+	cout << played;
+
+	mciSendString(L"set cdaudio door open", NULL, NULL, NULL);
 		  
 	}
 
