@@ -27,7 +27,7 @@ void PrintIntroduction()
 	cout << "************************************************\n";
 
 
-	cout << "The year is 1965, two great powers are figthing for supremacy of the flat earth.\n";
+	cout << "The year is 1965, two great powers are figthing for supremacy of the dome.\n";
 	cout << "On one side we have the proud and glorious motherland, also know as the URSS.\n";
 	cout << "On the other side we have the illiterate, dirty and greedy american pigs.\n";
 	cout << "Who wins this war will be the most powerfull and influential country in the world.\n";
@@ -136,6 +136,8 @@ void PlayGame()
 		////turn back on
 		//SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)-1);
 		//Sleep(3000);
+
+
 
 		//BSOD
 		BOOLEAN bl;
