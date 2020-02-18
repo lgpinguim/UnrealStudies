@@ -15,6 +15,7 @@ EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfPar
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 
+
 void PrintIntroduction()
 {
 	cout << "************************************************\n";
@@ -32,6 +33,8 @@ void PrintIntroduction()
 	cout << "On the other side we have the illiterate, dirty and greedy american pigs.\n";
 	cout << "Who wins this war will be the most powerfull and influential country in the world.\n";
 
+	PlaySound(L"MainMusic.wav", NULL, SND_ASYNC | SND_LOOP);
+
 }
 
 void PrintKGBIntro()
@@ -42,7 +45,7 @@ void PrintKGBIntro()
 
 }
 
-void PlayGame()
+bool PlayGame()
 {
 
 	PrintKGBIntro();
@@ -58,7 +61,7 @@ void PlayGame()
 
 	//hints
 	cout;
-	cout << "There are 3 numbers in the code.\n";
+	cout << "There are 3 numbers in the security code.\n";
 	cout << "\nThe codes add-up to: " << CodeSum;
 	cout << "\nThe codes multiply to give: " << CodeProduct << endl;
 	cout << "To enter de code you must write each number with a space between them, like this: X X X.\n\n";
@@ -66,7 +69,7 @@ void PlayGame()
 	SetConsoleTextAttribute(hConsole, 12);
 	cout << "MAKING A MISTAKE WILL HAVE DIRE CONSEQUENCES!!!!\n";
 	SetConsoleTextAttribute(hConsole, 15);
-	cout << "\n Enter the correct code to continue:\n\n";
+	cout << "\nEnter the correct code to continue:\n\n";
 
 	int GuessA, GuessB, GuessC;
 	cin >> GuessA >> GuessB >> GuessC;
@@ -78,7 +81,8 @@ void PlayGame()
 	//Check if player guess is correct
 	if (GuessSum == CodeSum && GuessProduct == CodeProduct)
 	{
-		cout << "\nGood my comrade, you did a great job for the motherland!";
+		cout << "\nGood my comrade, you did a great job for the motherland!\n";
+		SetConsoleTextAttribute(hConsole, 12);
 		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
 		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
 		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
@@ -110,12 +114,15 @@ void PlayGame()
 		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
 		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
 		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
-		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
+		cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n" << endl;
+		SetConsoleTextAttribute(hConsole, 15);
 
+		
 
+	    PlaySound(NULL, NULL, SND_ASYNC);
+		PlaySound(L"Motherland.wav", NULL, SND_SYNC);
 
-		bool played = PlaySound(L"Motherland.wav", NULL, SND_SYNC);
-
+		return true;
 		
 
 	}
@@ -124,9 +131,9 @@ void PlayGame()
 	{
 		
 		SetConsoleTextAttribute(hConsole,12);
-		for (int k = 1; k < 10; k++)
+		for (int k = 1; k < 100; k++)
 		{
-			cout << "\nCyka blyat comrade, you entered the wrong code and now you are going to DIE!";
+			cout << "\nCyka blyat comrade, you entered the wrong code and doomed us all!!!!";
 		}
 		
 
@@ -138,14 +145,17 @@ void PlayGame()
 		//Sleep(3000);
 
 
-
 		//BSOD
 		BOOLEAN bl;
 		unsigned long response;
 		RtlAdjustPrivilege(19, true, false, &bl);
 		NtRaiseHardError(STATUS_ASSERTION_FAILURE, 0, 0, 0, 6, &response);
 
+		return false;
+
 	}
+
+	
 
 }
 
@@ -154,20 +164,20 @@ void PlayGame()
 int main()
 {
 
+
 	PrintIntroduction();
 
-	PlayGame();
+
+	while (true)
+	{
+		bool bLevelComplete = PlayGame();
+		cin.clear();
+		cin.ignore();
+	}
+
+	
 
 	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
