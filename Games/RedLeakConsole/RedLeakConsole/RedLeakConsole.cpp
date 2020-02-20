@@ -50,7 +50,7 @@ void PrintIntroduction()
 
 void PrintKGBIntro(int Difficulty)
 {
-	cout << "Infiltration Progress ( "<< Difficulty <<  " /13).\n";
+	cout << "Infiltration Progress ("<< Difficulty << "/13).\n";
 	
 
 }
