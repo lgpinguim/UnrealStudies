@@ -18,6 +18,7 @@ HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 void PrintIntroduction()
 {
+	SetConsoleTextAttribute(hConsole, 12);
 	cout << "************************************************\n";
 	cout << "*______            _  _                   _    *\n";
 	cout << "*| ___ \\          | || |                 | |   *\n";
@@ -26,14 +27,23 @@ void PrintIntroduction()
 	cout << "*| |\\ \\ |  __/| (_| || |____|  __/| (_| ||   < *\n";
 	cout << "*\\_| \\_| \\___| \\__,_|\\_____/ \\___| \\__,_||_|\\_\\*\n";
 	cout << "************************************************\n";
-
+	SetConsoleTextAttribute(hConsole, 15);
 
 	cout << "The year is 1965, two great powers are figthing for supremacy of the dome.\n";
 	cout << "On one side we have the proud and glorious motherland, also know as the URSS.\n";
 	cout << "On the other side we have the illiterate, dirty and greedy american pigs.\n";
 	cout << "Who wins this war will be the most powerfull and influential country in the world.\n";
 	cout << "You are agent 13, a KGB spy secretly infiltrated in the CIA HQ.\n";
-	cout << "You need to find the correct security codes to bypass the security systems and steal the secret CIA projects to send them to our motherland.\n";
+	cout << "You need to find the correct security codes to bypass the security systems and steal the secret CIA projects to send them to our motherland.\n\n";
+	SetConsoleTextAttribute(hConsole, 6);
+	cout << "HOW TO PLAY:\n\n";
+	SetConsoleTextAttribute(hConsole, 15);
+	cout << "There are 3 numbers in the security code.\n";
+	cout << "To enter de code you must find the correct numbers that meet the requirements below.\nWrite each number with a space between them, like this: X X X.\n\n";
+
+	SetConsoleTextAttribute(hConsole, 12);
+	cout << "MAKING A MISTAKE WILL HAVE DIRE CONSEQUENCES!!!!\n\n";
+	SetConsoleTextAttribute(hConsole, 15);
 	PlaySound(L"MainMusic.wav", NULL, SND_ASYNC | SND_LOOP);
 
 }
@@ -61,14 +71,10 @@ bool PlayGame(int Difficulty)
 
 	//hints
 	cout;
-	cout << "There are 3 numbers in the security code.\n";
+	
 	cout << "\nThe codes add-up to: " << CodeSum;
 	cout << "\nThe codes multiply to give: " << CodeProduct << endl;
-	cout << "To enter de code you must write each number with a space between them, like this: X X X.\n\n";
 
-	SetConsoleTextAttribute(hConsole, 12);
-	cout << "MAKING A MISTAKE WILL HAVE DIRE CONSEQUENCES!!!!\n";
-	SetConsoleTextAttribute(hConsole, 15);
 	cout << "\nEnter the correct code to continue:\n\n";
 
 	int GuessA, GuessB, GuessC;
