@@ -150,12 +150,7 @@ bool PlayGame(int Difficulty)
 			cout << "\nCyka blyat comrade, you entered the wrong code and doomed us all!!!!";
 		}
 		
-		mciSendString(L"set cdaudio door open", NULL, NULL, NULL);
-		//Sleep(5000);
-		//SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
-		////turn back on
-		//SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)-1);
-		//Sleep(3000);
+
 
 		//BSOD
 		BOOLEAN bl;

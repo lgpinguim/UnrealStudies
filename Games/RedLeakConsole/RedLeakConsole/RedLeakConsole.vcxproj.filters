@@ -19,4 +19,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="MainMusic.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="Motherland.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
 </Project>

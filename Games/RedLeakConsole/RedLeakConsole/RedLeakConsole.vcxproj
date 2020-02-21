@@ -150,6 +150,10 @@
   <ItemGroup>
     <ClCompile Include="RedLeakConsole.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="MainMusic.wav" />
+    <Media Include="Motherland.wav" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
