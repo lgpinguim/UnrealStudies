@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <Windows.h>
+#include<ctime>
 using namespace std;
 
 #pragma comment(lib,"ntdll.lib")
@@ -61,9 +62,9 @@ bool PlayGame(int Difficulty)
 	PrintKGBIntro(Difficulty);
 
 	//declare the 3 number code
-	const int CodeA = 4;
-	const int CodeB = 3;
-	const int CodeC = 2;
+	const int CodeA = rand() % Difficulty + Difficulty;
+	const int CodeB = rand() % Difficulty + Difficulty;
+	const int CodeC = rand() % Difficulty + Difficulty;
 
 	//print CodeSum and CodeProduct to the terminal
 	const int CodeSum = CodeA + CodeB + CodeC;
@@ -85,7 +86,7 @@ bool PlayGame(int Difficulty)
 	int GuessProduct = GuessA * GuessB * GuessC;
 
 	
-	//Check if player guess is correct
+	//Win
 	if (Difficulty>=13)
 	{
 		cout << "\nGood my comrade, you did a great job for the motherland!\n";
@@ -134,11 +135,13 @@ bool PlayGame(int Difficulty)
 
 	}
 
+	//Guess Correct
 	else if (GuessSum == CodeSum && GuessProduct == CodeProduct)
 	{
-		cout << "Good work comrade, keep going. \n";
+		cout << "\nGood work comrade, keep going.\n\n\n";
 		return true;
 	}
+	//Gameover
 	else
 	{
 		SetConsoleTextAttribute(hConsole,12);
@@ -170,10 +173,10 @@ int main()
 
 	PrintIntroduction();
 
+	srand(time(NULL));
 	
-	while (true)
+	while (LevelDifficulty <= 14)
 	{
-	
 		bool bLevelComplete = PlayGame(LevelDifficulty);
 		cin.clear();
 		cin.ignore();

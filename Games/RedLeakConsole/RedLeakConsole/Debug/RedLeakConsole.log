@@ -1,2 +1,3 @@
 ﻿  RedLeakConsole.cpp
+C:\Users\Luis.ferreira\Desktop\Pinguim\Unreal\Curso Unreal\UnrealStudies\Games\RedLeakConsole\RedLeakConsole\RedLeakConsole.cpp(176,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   RedLeakConsole.vcxproj -> C:\Users\Luis.ferreira\Desktop\Pinguim\Unreal\Curso Unreal\UnrealStudies\Games\RedLeakConsole\Debug\RedLeakConsole.exe
