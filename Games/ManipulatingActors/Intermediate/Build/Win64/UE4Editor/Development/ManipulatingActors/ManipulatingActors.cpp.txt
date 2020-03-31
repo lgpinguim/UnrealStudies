@@ -1,0 +1,2 @@
+E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Development\ManipulatingActors\Definitions.ManipulatingActors.h
+E:\Git\UnrealStudies\Games\ManipulatingActors\Source\ManipulatingActors\ManipulatingActors.h

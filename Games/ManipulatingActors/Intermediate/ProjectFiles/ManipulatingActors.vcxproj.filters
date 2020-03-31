@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ManipulatingActors.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B0CB21F8-CF87-4A15-96D9-57149AC036BF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ManipulatingActors.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ManipulatingActorsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3117628D-E0DE-4D8E-8F42-0578C0BBBB9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ManipulatingActors">
+      <UniqueIdentifier>{67EB4EA6-7BE4-4ACF-A1EC-5707C380D48E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ManipulatingActors\ManipulatingActors.Build.cs">
+      <Filter>Source\ManipulatingActors</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ManipulatingActors\ManipulatingActors.cpp">
+      <Filter>Source\ManipulatingActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ManipulatingActors\ManipulatingActors.h">
+      <Filter>Source\ManipulatingActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ManipulatingActors\ManipulatingActorsGameModeBase.cpp">
+      <Filter>Source\ManipulatingActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ManipulatingActors\ManipulatingActorsGameModeBase.h">
+      <Filter>Source\ManipulatingActors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ManipulatingActors\ActorInRotation.h">
+      <Filter>Source\ManipulatingActors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ManipulatingActors\ActorInRotation.cpp">
+      <Filter>Source\ManipulatingActors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

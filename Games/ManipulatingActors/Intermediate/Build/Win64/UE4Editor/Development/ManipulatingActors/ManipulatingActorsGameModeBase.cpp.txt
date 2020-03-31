@@ -1,0 +1,7 @@
+E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Development\ManipulatingActors\Definitions.ManipulatingActors.h
+E:\Git\UnrealStudies\Games\ManipulatingActors\Source\ManipulatingActors\ManipulatingActorsGameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Inc\ManipulatingActors\ManipulatingActorsGameModeBase.generated.h
