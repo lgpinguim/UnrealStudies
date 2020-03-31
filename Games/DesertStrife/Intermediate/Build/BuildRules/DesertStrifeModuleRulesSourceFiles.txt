@@ -1,0 +1,3 @@
+E:\Git\UnrealStudies\Games\DesertStrife\Source\DesertStrife\DesertStrife.Build.cs
+E:\Git\UnrealStudies\Games\DesertStrife\Source\DesertStrife.Target.cs
+E:\Git\UnrealStudies\Games\DesertStrife\Source\DesertStrifeEditor.Target.cs

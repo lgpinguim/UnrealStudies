@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ExBlueprintPure.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7AC3C31C-E9B1-4DE5-9016-78B331253213}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ExBlueprintPure.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ExBlueprintPureEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E652BD87-142A-4750-96AF-D16AD12D7A4D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ExBlueprintPure">
+      <UniqueIdentifier>{FE4D61D8-3E55-4099-B31D-55856B0BD061}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ExBlueprintPure\ExBlueprintPure.Build.cs">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ExBlueprintPure\ExBlueprintPure.cpp">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExBlueprintPure\ExBlueprintPure.h">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExBlueprintPure\ExBlueprintPureGameModeBase.cpp">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExBlueprintPure\ExBlueprintPureGameModeBase.h">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ExBlueprintPure\MyActor.h">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ExBlueprintPure\MyActor.cpp">
+      <Filter>Source\ExBlueprintPure</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

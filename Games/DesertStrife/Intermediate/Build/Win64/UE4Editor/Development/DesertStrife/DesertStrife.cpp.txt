@@ -1,0 +1,2 @@
+E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\Definitions.DesertStrife.h
+E:\Git\UnrealStudies\Games\DesertStrife\Source\DesertStrife\DesertStrife.h

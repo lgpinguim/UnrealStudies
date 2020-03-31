@@ -1,0 +1,15 @@
+﻿  Parsing headers for ExBlueprintPureEditor
+    Running UnrealHeaderTool "E:\Git\UnrealStudies\Games\ExBlueprintPure\ExBlueprintPure.uproject" "E:\Git\UnrealStudies\Games\ExBlueprintPure\Intermediate\Build\Win64\ExBlueprintPureEditor\Development\ExBlueprintPureEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ExBlueprintPureEditor in 4.8131467 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 6 processes...
+    [1/6] ExBlueprintPure.init.gen.cpp
+    [2/6] MyActor.cpp
+    [3/6] MyActor.gen.cpp
+    [4/6] UE4Editor-ExBlueprintPure-0002.lib
+       Creating library E:\Git\UnrealStudies\Games\ExBlueprintPure\Intermediate\Build\Win64\UE4Editor\Development\ExBlueprintPure\UE4Editor-ExBlueprintPure-0002.lib and object E:\Git\UnrealStudies\Games\ExBlueprintPure\Intermediate\Build\Win64\UE4Editor\Development\ExBlueprintPure\UE4Editor-ExBlueprintPure-0002.exp
+    [5/6] UE4Editor-ExBlueprintPure-0002.dll
+       Creating library E:\Git\UnrealStudies\Games\ExBlueprintPure\Intermediate\Build\Win64\UE4Editor\Development\ExBlueprintPure\UE4Editor-ExBlueprintPure-0002.suppressed.lib and object E:\Git\UnrealStudies\Games\ExBlueprintPure\Intermediate\Build\Win64\UE4Editor\Development\ExBlueprintPure\UE4Editor-ExBlueprintPure-0002.suppressed.exp
+    [6/6] ExBlueprintPureEditor.target
+  Total time in Parallel executor: 1.08 seconds
+  Total execution time: 6.44 seconds

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DesertStrife.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\DesertStrifeEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\DesertStrife.cpp.obj"
+"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\DesertStrifeGameModeBase.cpp.obj"
+"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\DesertStrife.init.gen.cpp.obj"
+"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\DesertStrifeGameModeBase.gen.cpp.obj"
+"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\Default.rc2.res"
+/OUT:"E:\Git\UnrealStudies\Games\DesertStrife\Intermediate\Build\Win64\UE4Editor\Development\DesertStrife\UE4Editor-DesertStrife.lib"
+/INCLUDE:IMPLEMENT_MODULE_DesertStrife

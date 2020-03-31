@@ -1,0 +1,2 @@
+E:\Git\UnrealStudies\Games\ExBlueprintPure\Intermediate\Build\Win64\UE4Editor\Development\ExBlueprintPure\Definitions.ExBlueprintPure.h
+E:\Git\UnrealStudies\Games\ExBlueprintPure\Source\ExBlueprintPure\ExBlueprintPure.h
