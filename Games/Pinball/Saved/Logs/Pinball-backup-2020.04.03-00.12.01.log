@@ -1,0 +1,1204 @@
+﻿Log file open, 04/02/20 19:50:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Pinball
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.229172
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=lgpinguim -epicuserid=02b1e6a79d344e41a381dd1fc38926f0 -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:942][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.02-22.50.43:942][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.02-22.50.43:943][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:943][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:946][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.02-22.50.43:946][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.02-22.50.43:947][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.02-22.50.43:947][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.02-22.50.43:947][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.02-22.50.43:979][  0]LogHAL: Display: Platform has ~ 32 GB [34247086080 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.04.02-22.50.43:979][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.02-22.50.43:979][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.02-22.50.43:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.02-22.50.43:980][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Git/UnrealStudies/Games/Pinball/Saved/Config/Windows/Engine.ini]
+[2020.04.02-22.50.43:980][  0]LogInit: Computer: DESKTOP-QS8PFSE
+[2020.04.02-22.50.43:980][  0]LogInit: User: lgpi
+[2020.04.02-22.50.43:980][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.04.02-22.50.43:980][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.02-22.50.43:980][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.04.02-22.50.43:980][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.02-22.50.43:980][  0]LogMemory: Process Physical Memory: 96.80 MB used, 96.80 MB peak
+[2020.04.02-22.50.43:981][  0]LogMemory: Process Virtual Memory: 84.62 MB used, 84.62 MB peak
+[2020.04.02-22.50.43:981][  0]LogMemory: Physical Memory: 8052.09 MB used,  24608.47 MB free, 32660.57 MB total
+[2020.04.02-22.50.43:981][  0]LogMemory: Virtual Memory: 4634.61 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2020.04.02-22.50.43:996][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.04.02-22.50.43:996][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.04.02-22.50.44:124][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.02-22.50.44:150][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.02-22.50.44:150][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.02-22.50.44:272][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.02-22.50.44:272][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.02-22.50.44:314][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.04.02-22.50.44:314][  0]LogD3D11RHI:       4043/0/16330 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.02-22.50.44:316][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.02-22.50.44:316][  0]LogD3D11RHI:       0/0/16330 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.02-22.50.44:316][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.02-22.50.44:322][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.02-22.50.44:322][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.02-22.50.44:322][  0]LogWindows: EnumDisplayDevices:
+[2020.04.02-22.50.44:322][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.04.02-22.50.44:322][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.04.02-22.50.44:322][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.04.02-22.50.44:322][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.04.02-22.50.44:323][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.02-22.50.44:323][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.04.02-22.50.44:323][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.04.02-22.50.44:323][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.04.02-22.50.44:323][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.04.02-22.50.44:353][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.02-22.50.44:356][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.02-22.50.44:356][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.02-22.50.44:356][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.04.02-22.50.44:363][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.02-22.50.44:623][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.02-22.50.44:634][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.02-22.50.44:645][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.02-22.50.44:656][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.02-22.50.44:667][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.02-22.50.44:678][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.02-22.50.44:689][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.02-22.50.44:700][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.02-22.50.44:705][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.02-22.50.44:769][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.02-22.50.44:769][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.02-22.50.44:770][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.02-22.50.44:771][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.02-22.50.44:815][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.02-22.50.44:815][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.02-22.50.44:834][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.02-22.50.44:834][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.02-22.50.44:844][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.02-22.50.44:853][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.02-22.50.44:863][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.02-22.50.44:873][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.02-22.50.44:908][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.02-22.50.44:908][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.02-22.50.44:908][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.02-22.50.44:914][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.02-22.50.44:957][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (E:/Git/UnrealStudies/Games/Pinball/Intermediate/Shaders/WorkingDirectory/10844/).
+[2020.04.02-22.50.44:957][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lg_pi/AppData/Local/Temp/UnrealShaderWorkingDir/2001A46343F707B4DD4B38B424CA3004/'.
+[2020.04.02-22.50.44:959][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.02-22.50.44:959][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.02-22.50.44:959][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.02-22.50.45:406][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.02-22.50.45:445][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/lg_pi/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.02-22.50.45:445][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lg_pi/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.04.02-22.50.45:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Git/UnrealStudies/Games/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.02-22.50.45:445][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.02-22.50.45:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Git/UnrealStudies/Games/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.02-22.50.45:445][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.02-22.50.45:456][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.02-22.50.45:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.02-22.50.45:456][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.02-22.50.45:468][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lg_pi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.02-22.50.45:468][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.02-22.50.45:468][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.02-22.50.45:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.02-22.50.45:485][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.02-22.50.45:486][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.02-22.50.45:556][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
+[2020.04.02-22.50.45:808][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.02-22.50.45:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.02-22.50.45:911][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.02-22.50.45:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.02-22.50.45:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.02-22.50.45:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.02-22.50.45:923][  0]LogNetVersion: Pinball 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2679092563)
+[2020.04.02-22.50.46:244][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.042415 seconds
+[2020.04.02-22.50.46:249][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.04.02-22.50.46:249][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.04.02-22.50.46:249][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.02-22.50.46:892][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.02-22.50.46:904][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.02-22.50.46:997][  0]SourceControl: Source control is disabled
+[2020.04.02-22.50.46:997][  0]SourceControl: Source control is disabled
+[2020.04.02-22.50.46:999][  0]SourceControl: Source control is disabled
+[2020.04.02-22.50.47:000][  0]SourceControl: Source control is disabled
+[2020.04.02-22.50.47:055][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.02-22.50.47:226][  0]LogOcInput: OculusInput pre-init called
+[2020.04.02-22.50.47:763][  0]LogEngine: Initializing Engine...
+[2020.04.02-22.50.47:764][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.02-22.50.47:765][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.02-22.50.47:928][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.02-22.50.47:938][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.02-22.50.47:992][  0]LogInit: XAudio2 using 'Fones de ouvido (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.02-22.50.48:007][  0]LogInit: FAudioDevice initialized.
+[2020.04.02-22.50.48:007][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.02-22.50.48:045][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/lg_pi/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.04.02-22.50.48:052][  0]LogInit: Texture streaming: Enabled
+[2020.04.02-22.50.48:066][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.02-22.50.48:085][  0]LogInit: Transaction tracking system initialized
+[2020.04.02-22.50.48:103][  0]BlueprintLog: New page: Editor Load
+[2020.04.02-22.50.48:167][  0]LocalizationService: Localization service is disabled
+[2020.04.02-22.50.48:415][  0]LogFileCache: Scanning file cache for directory 'E:/Git/UnrealStudies/Games/Pinball/Content/' took 0.01s
+[2020.04.02-22.50.48:415][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.02-22.50.48:415][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.02-22.50.48:546][  0]SourceControl: Source control is disabled
+[2020.04.02-22.50.48:546][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.02-22.50.48:547][  0]LightingResults: New page: Lighting Build
+[2020.04.02-22.50.48:549][  0]MapCheck: New page: Map Check
+[2020.04.02-22.50.48:549][  0]LightingResults: New page: Lighting Build
+[2020.04.02-22.50.48:570][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.04.02-22.50.48:634][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.04.02-22.50.48:638][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.02-22.50.48:659][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.04.02-22.50.48:659][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.02-22.50.48:659][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2020.04.02-22.50.48:659][  0]LogFileHelpers: Loading map 'Template_Default' took 0.113
+[2020.04.02-22.50.48:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-22.50.48:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-22.50.48:803][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-22.50.48:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-22.50.48:821][  0]LogCollectionManager: Loaded 0 collections in 0.001379 seconds
+[2020.04.02-22.50.48:883][  0]LogFileCache: Scanning file cache for directory 'E:/Git/UnrealStudies/Games/Pinball/Saved/Collections/' took 0.01s
+[2020.04.02-22.50.48:883][  0]LogFileCache: Scanning file cache for directory 'E:/Git/UnrealStudies/Games/Pinball/Content/Developers/lgpi/Collections/' took 0.01s
+[2020.04.02-22.50.48:883][  0]LogFileCache: Scanning file cache for directory 'E:/Git/UnrealStudies/Games/Pinball/Content/Collections/' took 0.01s
+[2020.04.02-22.50.48:883][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.04.02-22.50.48:895][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2732 classes and 659 folders.
+[2020.04.02-22.50.48:905][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.02-22.50.48:912][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:932][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:937][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:942][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:946][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:951][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:956][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:967][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:972][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:976][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:981][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:986][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.48:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:027][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:037][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.04.02-22.50.49:170][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.02-22.50.49:180][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.04.02-22.50.49:309][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.02-22.50.49:311][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.02-22.50.49:320][  0]LogSlate: Took 0.004347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.02-22.50.49:421][  0]LogRenderer: Reallocating scene render targets to support 944x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.02-22.50.49:507][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.02-22.50.49:507][  0]LogLoad: (Engine Initialization) Total time: 7.32 seconds
+[2020.04.02-22.50.49:507][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.02-22.50.49:534][  0]LogAssetRegistry: Asset discovery search completed in 3.9993 seconds
+[2020.04.02-22.50.49:536][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.04.02-22.50.49:536][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2020.04.02-22.50.49:538][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.02-22.50.49:569][  0]LogSlate: Took 0.005163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.02-22.50.51:652][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-22.50.53:082][407]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.02-22.50.53:769][407]LogAIModule: Creating AISystem for world Pinball
+[2020.04.02-22.50.53:777][407]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Pinball.Pinball
+[2020.04.02-22.50.53:800][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.04.02-22.50.53:801][407]Cmd: MAP LOAD FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.02-22.50.53:801][407]LightingResults: New page: Lighting Build
+[2020.04.02-22.50.53:801][407]LoadErrors: New page: Loading map: Pinball.umap
+[2020.04.02-22.50.53:802][407]MapCheck: New page: Map Check
+[2020.04.02-22.50.53:802][407]LightingResults: New page: Lighting Build
+[2020.04.02-22.50.53:823][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.04.02-22.50.53:873][407]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.02-22.50.53:895][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.04.02-22.50.53:915][407]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.02-22.50.53:915][407]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2020.04.02-22.50.53:915][407]LogFileHelpers: Loading map 'Pinball' took 0.115
+[2020.04.02-23.04.51:284][363]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper3)
+[2020.04.02-23.04.55:743][880]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper6)
+[2020.04.02-23.04.58:777][240]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2020.04.02-23.05.01:324][542]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper5)
+[2020.04.02-23.05.03:587][810]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.05.09:659][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.05.24:168][253]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/PinballHUD.PinballHUD
+[2020.04.02-23.05.24:466][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.04.02-23.05.25:062][253]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2020.04.02-23.05.25:374][253]LogSlate: Took 0.004535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.02-23.06.12:507][447]LogEditorTransaction: Undo Resize Widget
+[2020.04.02-23.06.35:707][889]BlueprintLog: New page: Compile PinballHUD
+[2020.04.02-23.06.35:869][889]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.04.02-23.07.29:515][ 85]Cmd: TRANSACTION UNDO
+[2020.04.02-23.07.29:515][ 85]LogEditorTransaction: Undo Rename Widget
+[2020.04.02-23.08.09:210][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.04.02-23.08.09:211][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pinball" FILE="E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Levels/Pinball_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.04.02-23.08.09:425][551]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/Pinball_Auto1699A443C4BD917835D8D57BCF42D6406.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Levels/Pinball_Auto1.umap'
+[2020.04.02-23.08.09:450][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pinball' took 0.267
+[2020.04.02-23.08.09:450][551]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.267
+[2020.04.02-23.08.09:451][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballHUD] ([1] browsable assets)...
+[2020.04.02-23.08.09:451][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballHUD]
+[2020.04.02-23.08.09:451][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballHUD" FILE="E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Blueprints/PinballHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.04.02-23.08.09:460][551]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/PinballHUD_Auto10555859A47F032BC537DD785137CF01E.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Blueprints/PinballHUD_Auto1.uasset'
+[2020.04.02-23.08.09:460][551]LogFileHelpers: Auto-saving content packages took 0.010
+[2020.04.02-23.11.17:144][646]BlueprintLog: New page: Compile PinballHUD
+[2020.04.02-23.11.17:175][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.04.02-23.11.18:088][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballHUD" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballHUD.uasset" SILENT=true
+[2020.04.02-23.11.18:131][752]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/PinballHUDEA7ADFEE4143753CDA7B1EB51DE6FC58.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballHUD.uasset'
+[2020.04.02-23.11.22:241][243]LogSlate: Window 'PinballHUD' being destroyed
+[2020.04.02-23.11.25:618][641]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PinballPlayerController.PinballPlayerController
+[2020.04.02-23.11.25:970][642]LogSlate: Took 0.004550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.02-23.16.59:612][948]BlueprintLog: New page: Compile PinballPlayerController
+[2020.04.02-23.16.59:775][948]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.04.02-23.17.00:811][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballPlayerController" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballPlayerController.uasset" SILENT=true
+[2020.04.02-23.17.00:845][ 68]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/PinballPlayerControllerC2E1B35A4428FEE3ECA0BABFD3FBA69C.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballPlayerController.uasset'
+[2020.04.02-23.17.07:556][623]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-23.17.07:579][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.17.07:579][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-23.17.07:579][623]PIE: New page: PIE session: Pinball (Apr 2, 2020, 5:17:07 PM)
+[2020.04.02-23.17.07:592][623]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pinball
+[2020.04.02-23.17.07:598][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005777s)
+[2020.04.02-23.17.07:598][623]LogAIModule: Creating AISystem for world Pinball
+[2020.04.02-23.17.07:599][623]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2020.04.02-23.17.07:599][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pinball.Pinball to /Game/Levels/UEDPIE_0_Pinball.Pinball (0.006568s)
+[2020.04.02-23.17.07:637][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.04.02-23.17.07:679][623]LogInit: XAudio2 using 'Fones de ouvido (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.02-23.17.07:690][623]LogInit: FAudioDevice initialized.
+[2020.04.02-23.17.07:732][623]LogLoad: Game class is 'PinballGameMode_C'
+[2020.04.02-23.17.07:732][623]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2020.04.02-20.17.07
+[2020.04.02-23.17.07:734][623]LogWorld: Bringing up level for play took: 0.002062
+[2020.04.02-23.17.07:752][623]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2020.04.02-23.17.07:758][623]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2020.04.02-23.17.07:759][623]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.04.02-23.17.07:760][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.17.07:761][623]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Pinball -0.501
+[2020.04.02-23.17.07:761][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.17.18:233][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.17.18:233][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.17.18:262][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-23.17.18:262][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.17.18:296][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.17.18:312][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.04.02-23.17.18:337][687]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.02-23.17.20:280][920]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.17.20:359][927]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.04.02-23.17.28:059][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.17.28:168][851]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-23.17.28:180][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.17.28:180][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-23.17.28:180][851]PIE: New page: PIE session: Pinball (Apr 2, 2020, 5:17:28 PM)
+[2020.04.02-23.17.28:180][851]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pinball
+[2020.04.02-23.17.28:185][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005124s)
+[2020.04.02-23.17.28:186][851]LogAIModule: Creating AISystem for world Pinball
+[2020.04.02-23.17.28:186][851]LogPlayLevel: PIE: World Init took: (0.000399s)
+[2020.04.02-23.17.28:186][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pinball.Pinball to /Game/Levels/UEDPIE_0_Pinball.Pinball (0.005614s)
+[2020.04.02-23.17.28:215][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.04.02-23.17.28:253][851]LogInit: XAudio2 using 'Fones de ouvido (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.02-23.17.28:263][851]LogInit: FAudioDevice initialized.
+[2020.04.02-23.17.28:289][851]LogLoad: Game class is 'PinballGameMode_C'
+[2020.04.02-23.17.28:290][851]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2020.04.02-20.17.28
+[2020.04.02-23.17.28:290][851]LogWorld: Bringing up level for play took: 0.000949
+[2020.04.02-23.17.28:303][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.17.28:303][851]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Pinball 0.04
+[2020.04.02-23.17.28:303][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.17.30:995][172]Cmd: LevelEditor.ToggleImmersive
+[2020.04.02-23.17.31:124][173]LogRenderer: Reallocating scene render targets to support 1020x572 Format 10 NumSamples 1 (Frame:323).
+[2020.04.02-23.17.31:166][174]LogRenderer: Reallocating scene render targets to support 1600x860 Format 10 NumSamples 1 (Frame:325).
+[2020.04.02-23.17.31:181][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.02-23.18.09:429][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.18.09:430][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.18.09:488][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-23.18.09:488][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.18.09:521][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.18.09:524][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.04.02-23.18.09:530][761]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.02-23.18.30:292][140]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper)
+[2020.04.02-23.18.38:047][ 41]LogEditorViewport: Clicking on Actor (LMB): BP_BallResetZone_C (BP_BallResetZone)
+[2020.04.02-23.18.38:149][ 51]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.38:782][126]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.39:088][161]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.04.02-23.18.39:652][227]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.04.02-23.18.39:992][266]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.40:318][304]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.41:514][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.02-23.18.54:189][922]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.54:837][997]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.57:084][265]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.57:679][335]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.57:981][370]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.18.58:057][378]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.04.02-23.18.58:808][466]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2020.04.02-23.18.58:885][474]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.19.03:319][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.19.11:507][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.19.11:624][986]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-23.19.11:638][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.19.11:638][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-23.19.11:638][986]PIE: New page: PIE session: Pinball (Apr 2, 2020, 5:19:11 PM)
+[2020.04.02-23.19.11:638][986]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pinball
+[2020.04.02-23.19.11:643][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004877s)
+[2020.04.02-23.19.11:643][986]LogAIModule: Creating AISystem for world Pinball
+[2020.04.02-23.19.11:643][986]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2020.04.02-23.19.11:644][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pinball.Pinball to /Game/Levels/UEDPIE_0_Pinball.Pinball (0.005511s)
+[2020.04.02-23.19.11:671][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.04.02-23.19.11:708][986]LogInit: XAudio2 using 'Fones de ouvido (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.02-23.19.11:718][986]LogInit: FAudioDevice initialized.
+[2020.04.02-23.19.11:742][986]LogLoad: Game class is 'PinballGameMode_C'
+[2020.04.02-23.19.11:744][986]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2020.04.02-20.19.11
+[2020.04.02-23.19.11:744][986]LogWorld: Bringing up level for play took: 0.000932
+[2020.04.02-23.19.11:756][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.19.11:757][986]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Pinball -0.506
+[2020.04.02-23.19.11:757][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.19.51:261][721]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.19.51:261][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.19.51:292][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-23.19.51:292][721]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.19.51:322][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.19.51:326][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.04.02-23.19.51:361][724]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.04.02-23.19.52:960][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.19.53:070][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pinball" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.02-23.19.53:097][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.04.02-23.19.53:258][925]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/PinballE09A535445A110B891C5C687800E3AAC.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball.umap'
+[2020.04.02-23.19.53:283][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pinball_BuiltData" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball_BuiltData.uasset" SILENT=true
+[2020.04.02-23.19.53:323][925]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/Pinball_BuiltData076323FC49CF6F3FB31851B1E5152B53.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball_BuiltData.uasset'
+[2020.04.02-23.28.15:845][510]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.02-23.28.18:921][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.28.19:087][879]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PinballGameMode.PinballGameMode
+[2020.04.02-23.28.56:896][367]LogSlate: Took 0.012989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.04.02-23.29.09:500][875]BlueprintLog: New page: Compile PinballGameMode
+[2020.04.02-23.29.09:661][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.04.02-23.29.10:344][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2020.04.02-23.29.10:392][953]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/PinballGameMode1E1AE34940A1FD7F27F9A49EE38F10AC.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2020.04.02-23.31.03:195][ 19]BlueprintLog: New page: Compile PinballGameMode
+[2020.04.02-23.31.03:351][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.04.02-23.31.03:996][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2020.04.02-23.31.04:017][ 93]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/PinballGameModeE1EE5F554C1AF8B7550CC6807B31CFDD.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/PinballGameMode.uasset'
+[2020.04.02-23.31.22:101][902]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.04.02-23.31.33:391][250]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/HighScoreSave.HighScoreSave
+[2020.04.02-23.32.42:259][ 57]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/Blueprints/HighScoreStruct.HighScoreStruct
+[2020.04.02-23.33.35:041][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreStruct" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreStruct.uasset" SILENT=true
+[2020.04.02-23.33.35:047][716]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreStruct048B77F34C156EB92437D0967CBBE6D8.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreStruct.uasset'
+[2020.04.02-23.34.06:558][483]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.02-23.34.06:591][483]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.04.02-23.38.17:971][  0]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.04.02-23.43.25:780][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.04.02-23.43.25:780][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pinball' took 0.037
+[2020.04.02-23.43.25:781][542]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreSave] ([1] browsable assets)...
+[2020.04.02-23.43.25:781][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreSave]
+[2020.04.02-23.43.25:782][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.04.02-23.43.25:814][542]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave_Auto22528B5934239C2A1797CF6979B91744F.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto2.uasset'
+[2020.04.02-23.43.25:814][542]LogFileHelpers: Auto-saving content packages took 0.033
+[2020.04.02-23.47.19:930][272]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.02-23.47.19:967][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.04.02-23.47.20:555][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2020.04.02-23.47.20:571][326]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave6E5A40ED464EF9D11DF2EC8BB00A4CF3.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset'
+[2020.04.02-23.49.58:410][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2020.04.02-23.49.58:432][ 43]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave94BF340E47E16A281BB4AF97541FDB41.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset'
+[2020.04.02-23.49.58:958][103]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.02-23.49.58:994][103]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.04.02-23.50.19:434][105]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-23.50.19:453][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.50.19:453][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-23.50.19:453][105]PIE: New page: PIE session: Pinball (Apr 2, 2020, 5:50:19 PM)
+[2020.04.02-23.50.19:453][105]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pinball
+[2020.04.02-23.50.19:459][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005926s)
+[2020.04.02-23.50.19:460][105]LogAIModule: Creating AISystem for world Pinball
+[2020.04.02-23.50.19:460][105]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2020.04.02-23.50.19:460][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pinball.Pinball to /Game/Levels/UEDPIE_0_Pinball.Pinball (0.006707s)
+[2020.04.02-23.50.19:493][105]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.02-23.50.19:532][105]LogInit: XAudio2 using 'Fones de ouvido (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.02-23.50.19:544][105]LogInit: FAudioDevice initialized.
+[2020.04.02-23.50.19:568][105]LogLoad: Game class is 'PinballGameMode_C'
+[2020.04.02-23.50.19:569][105]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2020.04.02-20.50.19
+[2020.04.02-23.50.19:570][105]LogWorld: Bringing up level for play took: 0.001347
+[2020.04.02-23.50.19:582][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.50.19:582][105]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Pinball -0.68
+[2020.04.02-23.50.19:582][105]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.50.21:276][306]Cmd: LevelEditor.ToggleImmersive
+[2020.04.02-23.50.21:451][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.02-23.51.10:427][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.51.10:428][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.51.10:488][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-23.51.10:488][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.51.10:525][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.51.10:530][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.04.02-23.51.10:548][187]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.02-23.51.14:556][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.02-23.53.21:542][250]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.02-23.53.21:542][250]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.02-23.53.21:545][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.53.39:021][316]LogEditorViewport: Clicking on Actor (LMB): BP_Flipper_C (BP_Flipper)
+[2020.04.02-23.53.46:977][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.53.47:185][292]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flipper.BP_Flipper
+[2020.04.02-23.54.05:073][371]BlueprintLog: New page: Compile BP_Flipper
+[2020.04.02-23.54.05:247][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.04.02-23.54.05:753][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flipper" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/BP_Flipper.uasset" SILENT=true
+[2020.04.02-23.54.05:817][424]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/BP_Flipper00B3C4E348792AD94C405FA5D8A7DC44.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/BP_Flipper.uasset'
+[2020.04.02-23.54.11:070][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-23.54.11:090][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.54.11:090][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-23.54.11:090][ 44]PIE: New page: PIE session: Pinball (Apr 2, 2020, 5:54:11 PM)
+[2020.04.02-23.54.11:090][ 44]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pinball
+[2020.04.02-23.54.11:096][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005502s)
+[2020.04.02-23.54.11:096][ 44]LogAIModule: Creating AISystem for world Pinball
+[2020.04.02-23.54.11:096][ 44]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2020.04.02-23.54.11:096][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pinball.Pinball to /Game/Levels/UEDPIE_0_Pinball.Pinball (0.006071s)
+[2020.04.02-23.54.11:129][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.04.02-23.54.11:167][ 44]LogInit: XAudio2 using 'Fones de ouvido (Razer Kraken USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.02-23.54.11:178][ 44]LogInit: FAudioDevice initialized.
+[2020.04.02-23.54.11:207][ 44]LogLoad: Game class is 'PinballGameMode_C'
+[2020.04.02-23.54.11:208][ 44]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pinball.Pinball up for play (max tick rate 0) at 2020.04.02-20.54.11
+[2020.04.02-23.54.11:208][ 44]LogWorld: Bringing up level for play took: 0.001043
+[2020.04.02-23.54.11:221][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.54.11:221][ 44]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Pinball 0.958
+[2020.04.02-23.54.11:221][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.54.22:541][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.54.22:541][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.54.22:572][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-23.54.22:572][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pinball.Pinball:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball' with GeneratedClass '/Game/Levels/Pinball.Pinball_C' with ClassGeneratedBy '/Game/Levels/Pinball.Pinball:PersistentLevel.Pinball'
+[2020.04.02-23.54.22:606][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-23.54.22:610][400]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.04.02-23.54.22:663][402]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.04.02-23.54.47:280][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.04.02-23.54.47:305][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pinball" FILE="E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Levels/Pinball_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.04.02-23.54.47:480][643]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/Pinball_Auto305643BF64E52C000F7C94189BC8ACFEE.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Saved/Autosaves/Game/Levels/Pinball_Auto3.umap'
+[2020.04.02-23.54.47:482][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pinball' took 0.234
+[2020.04.02-23.54.47:482][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.234
+[2020.04.02-23.54.52:860][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.02-23.56.05:837][965]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.02-23.56.05:876][965]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.04.03-00.04.19:914][124]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.03-00.04.19:953][124]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.04.03-00.04.20:673][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2020.04.03-00.04.20:703][207]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave3552C2624DA3DD9FBDB07295009F3B14.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset'
+[2020.04.03-00.04.46:534][279]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.03-00.04.46:572][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.04.03-00.04.47:008][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2020.04.03-00.04.47:034][328]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave4CB7EF9B408422F2755AE185BEECB7C4.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset'
+[2020.04.03-00.06.14:247][207]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.03-00.06.14:286][207]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.04.03-00.06.14:747][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2020.04.03-00.06.14:775][259]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave9778841247B544ABE9F8AB8885F1E7EE.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset'
+[2020.04.03-00.06.18:763][731]BlueprintLog: New page: Compile HighScoreSave
+[2020.04.03-00.06.18:800][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.03-00.06.19:220][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2020.04.03-00.06.19:246][778]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/HighScoreSave22B27A354F51DD1E989CC0B1CA888E5B.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Blueprints/HighScoreSave.uasset'
+[2020.04.03-00.11.49:467][127]LogSlate: Window 'BP_Flipper' being destroyed
+[2020.04.03-00.11.49:470][127]LogSlate: Window 'BP_Flipper' being destroyed
+[2020.04.03-00.11.56:592][963]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.04.03-00.11.56:601][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Pinball" FILE="E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.03-00.11.56:630][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.04.03-00.11.56:823][963]LogSavePackage: Moving 'E:/Git/UnrealStudies/Games/Pinball/Saved/Pinball9E866EDC467A2FF71409C5B7FB347EF6.tmp' to 'E:/Git/UnrealStudies/Games/Pinball/Content/Levels/Pinball.umap'
+[2020.04.03-00.11.56:845][963]LogFileHelpers: Saving map 'Pinball' took 0.245
+[2020.04.03-00.11.58:253][112]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.04.03-00.11.58:309][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.03-00.11.58:356][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.03-00.11.58:401][112]LogSlate: Window 'Pinball - Unreal Editor' being destroyed
+[2020.04.03-00.11.58:402][112]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.03-00.11.58:572][113]Cmd: QUIT_EDITOR
+[2020.04.03-00.11.59:305][113]LogExit: Preparing to exit.
+[2020.04.03-00.12.00:401][113]LogExit: Editor shut down
+[2020.04.03-00.12.00:402][113]LogExit: Transaction tracking system shut down
+[2020.04.03-00.12.00:590][113]LogExit: Object subsystem successfully closed.
+[2020.04.03-00.12.00:606][113]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.03-00.12.00:609][113]LogD3D11RHI: Shutdown
+[2020.04.03-00.12.00:609][113]LogD3D11RHI: CleanupD3DDevice
+[2020.04.03-00.12.00:610][113]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.03-00.12.00:610][113]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.03-00.12.00:610][113]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.03-00.12.00:610][113]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.03-00.12.00:610][113]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.03-00.12.00:610][113]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.03-00.12.00:691][113]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.03-00.12.00:711][113]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (652)
+[2020.04.03-00.12.00:711][113]LogModuleManager: Shutting down and abandoning module Voice (650)
+[2020.04.03-00.12.00:711][113]LogModuleManager: Shutting down and abandoning module SequencerWidgets (648)
+[2020.04.03-00.12.00:711][113]LogModuleManager: Shutting down and abandoning module BlueprintGraph (646)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (632)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module StatsViewer (630)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module FoliageEdit (628)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module LandscapeEditor (626)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module MeshPaintMode (624)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (622)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module ActorPickerMode (620)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module GeometryMode (618)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module TextureAlignMode (616)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module BspMode (614)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (612)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (610)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module AutomationWorker (608)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module OculusMR (606)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (604)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (602)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (600)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module PlacementMode (599)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module MaterialEditor (598)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (594)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (592)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (590)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (588)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (586)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module WebMMedia (584)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (582)
+[2020.04.03-00.12.00:712][113]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (580)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (576)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (574)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (572)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (570)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (568)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (566)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (564)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (562)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (560)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (558)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (556)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module CharacterAI (554)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module SmartSnapping (552)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module SessionServices (550)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module MeshPaint (548)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2020.04.03-00.12.00:713][113]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (514)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module InputBindingEditor (512)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module MergeActors (510)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (508)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module LocalizationService (507)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module HardwareTargeting (504)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (502)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module UndoHistory (500)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module XmlParser (498)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module Blutility (496)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (494)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (493)
+[2020.04.03-00.12.00:828][113]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (490)
+[2020.04.03-00.12.00:829][113]LogModuleManager: Shutting down and abandoning module SettingsEditor (488)
+[2020.04.03-00.12.00:829][113]LogModuleManager: Shutting down and abandoning module ProjectLauncher (486)
+[2020.04.03-00.12.00:829][113]LogModuleManager: Shutting down and abandoning module SessionFrontend (484)
+[2020.04.03-00.12.00:829][113]LogModuleManager: Shutting down and abandoning module ProfilerClient (482)
+[2020.04.03-00.12.00:829][113]LogModuleManager: Shutting down and abandoning module DeviceManager (480)
+[2020.04.03-00.12.00:829][113]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (479)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module AutomationController (476)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module AutomationWindow (474)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module Layers (472)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (470)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module DetailCustomizations (468)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module PackagesDialog (466)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (464)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2020.04.03-00.12.00:873][113]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2020.04.03-00.12.00:880][113]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2020.04.03-00.12.00:880][113]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2020.04.03-00.12.00:881][113]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
+[2020.04.03-00.12.00:884][113]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module OculusEditor (396)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (368)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (366)
+[2020.04.03-00.12.01:036][113]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (364)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (352)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module AppleImageUtils (350)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module AlembicImporter (348)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module AlembicLibrary (347)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module GeometryCache (346)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (345)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module VariantManagerContent (340)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (338)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (336)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module PluginBrowser (334)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (332)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (330)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (308)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (306)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (304)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.04.03-00.12.01:037][113]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.04.03-00.12.01:138][113]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.04.03-00.12.01:239][113]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.04.03-00.12.01:239][113]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.04.03-00.12.01:240][113]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.04.03-00.12.01:240][113]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.04.03-00.12.01:240][113]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.04.03-00.12.01:240][113]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.04.03-00.12.01:240][113]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.04.03-00.12.01:241][113]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.04.03-00.12.01:242][113]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.04.03-00.12.01:244][113]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.04.03-00.12.01:263][113]LogDerivedDataCache: Shutdown
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.04.03-00.12.01:263][113]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.04.03-00.12.01:264][113]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.04.03-00.12.01:264][113]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.04.03-00.12.01:264][113]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.04.03-00.12.01:264][113]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.04.03-00.12.01:265][113]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.04.03-00.12.01:265][113]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.04.03-00.12.01:269][113]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.04.03-00.12.01:270][113]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.04.03-00.12.01:270][113]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.04.03-00.12.01:293][113]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.04.03-00.12.01:293][113]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.03-00.12.01:293][113]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7F7B08-4C70-6538-A64D-D08D5C102BEB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=b86f4fff49b3c9bc16c65b9d112414d0%7C02b1e6a79d344e41a381dd1fc38926f0%7Cb1774792-59e9-4644-bd35-71a1972b81e8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.03-00.12.01:318][113]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.04.03-00.12.01:320][113]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.04.03-00.12.01:321][113]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.04.03-00.12.01:328][113]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.04.03-00.12.01:328][113]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.03-00.12.01:329][113]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.03-00.12.01:330][113]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.03-00.12.01:330][113]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.03-00.12.01:330][113]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.03-00.12.01:330][113]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.03-00.12.01:330][113]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.03-00.12.01:330][113]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.03-00.12.01:331][113]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.03-00.12.01:331][113]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.03-00.12.01:331][113]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.03-00.12.01:331][113]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.03-00.12.01:331][113]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.03-00.12.01:331][113]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.03-00.12.01:340][113]LogExit: Exiting.
+[2020.04.03-00.12.01:368][113]Log file closed, 04/02/20 21:12:01
