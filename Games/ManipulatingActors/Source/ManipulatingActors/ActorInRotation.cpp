@@ -15,6 +15,15 @@ AActorInRotation::AActorInRotation()
 void AActorInRotation::BeginPlay()
 {
 	Super::BeginPlay();
+
+	float RotRandom = FMath::RandRange(-90.f,90.f);
+	float PosRandom  = FMath::RandRange(-5.f, 5.f);
+	float EscalaRandom = FMath::RandRange(0.05f, 0.2.f);
+
+
+
+	FTransform NovoTransform = FTransform(FRotator(RotRandom, RotRandom, RotRandom), FVector(PosRandom, PosRandom, PosRandom), FVector(EscalaRandom, EscalaRandom, EscalaRandom));
+	AddActorLocalTransform(NovoTransform);
 	
 }
 
