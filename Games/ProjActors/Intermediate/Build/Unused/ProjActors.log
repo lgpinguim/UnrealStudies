@@ -1,0 +1,8 @@
+﻿  Parsing headers for ProjActorsEditor
+    Running UnrealHeaderTool "E:\Git\UnrealStudies\Games\ProjActors\ProjActors.uproject" "E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\ProjActorsEditor\Development\ProjActorsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ProjActorsEditor in 4.9320962 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 6 processes...
+    [1/1] ProjActorsEditor.target
+  Total time in Parallel executor: 0.15 seconds
+  Total execution time: 5.64 seconds

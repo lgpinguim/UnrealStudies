@@ -1,0 +1,2 @@
+E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\UE4Editor\Development\ProjActors\Definitions.ProjActors.h
+E:\Git\UnrealStudies\Games\ProjActors\Source\ProjActors\ProjActors.h

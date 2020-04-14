@@ -1,11 +1,13 @@
-﻿  Creating makefile for ManipulatingActorsEditor (ini files are newer than makefile)
-  Parsing headers for ManipulatingActorsEditor
+﻿  Parsing headers for ManipulatingActorsEditor
     Running UnrealHeaderTool "E:\Git\UnrealStudies\Games\ManipulatingActors\ManipulatingActors.uproject" "E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\ManipulatingActorsEditor\Development\ManipulatingActorsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ManipulatingActorsEditor in 4.8181866 seconds
+  Reflection code generated for ManipulatingActorsEditor in 4.8377824 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 6 processes...
     [1/4] ActorInRotation.cpp
-E:\Git\UnrealStudies\Games\ManipulatingActors\Source\ManipulatingActors\ActorInRotation.cpp(21): error C2228: left of '.f' must have class/struct/union
-    E:\Git\UnrealStudies\Games\ManipulatingActors\Source\ManipulatingActors\ActorInRotation.cpp(21): note: type is 'double'
-E:\Git\UnrealStudies\Games\ManipulatingActors\Source\ManipulatingActors\ActorInRotation.cpp(21): error C2661: 'FMath::RandRange': no overloaded function takes 1 arguments
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" ManipulatingActorsEditor Win64 Development -Project="E:\Git\UnrealStudies\Games\ManipulatingActors\ManipulatingActors.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+    [2/4] UE4Editor-ManipulatingActors-0015.lib
+       Creating library E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Development\ManipulatingActors\UE4Editor-ManipulatingActors-0015.lib and object E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Development\ManipulatingActors\UE4Editor-ManipulatingActors-0015.exp
+    [3/4] UE4Editor-ManipulatingActors-0015.dll
+       Creating library E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Development\ManipulatingActors\UE4Editor-ManipulatingActors-0015.suppressed.lib and object E:\Git\UnrealStudies\Games\ManipulatingActors\Intermediate\Build\Win64\UE4Editor\Development\ManipulatingActors\UE4Editor-ManipulatingActors-0015.suppressed.exp
+    [4/4] ManipulatingActorsEditor.target
+  Total time in Parallel executor: 2.35 seconds
+  Total execution time: 7.78 seconds

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjActors.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E2AC7690-3821-4F21-9D5B-4B5B01D28DDC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjActors.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjActorsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1FA5AED9-90C3-48E8-96BA-5B7DFC1705D4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjActors">
+      <UniqueIdentifier>{C09FF350-2E27-42C9-8B79-4F94AF0533A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjActors\ProjActors.Build.cs">
+      <Filter>Source\ProjActors</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjActors\ProjActors.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjActors\ProjActors.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjActors\ProjActorsGameModeBase.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjActors\ProjActorsGameModeBase.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ProjActors\Granade.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProjActors\MyGameMode.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProjActors\InsertGranades.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ProjActors\Granade.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjActors\MyGameMode.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjActors\InsertGranades.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

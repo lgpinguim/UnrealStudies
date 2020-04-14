@@ -1,0 +1,9 @@
+E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\UE4Editor\Development\ProjActors\Definitions.ProjActors.h
+E:\Git\UnrealStudies\Games\ProjActors\Source\ProjActors\InsertGranades.h
+E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\UE4Editor\Inc\ProjActors\InsertGranades.generated.h
+E:\Git\UnrealStudies\Games\ProjActors\Source\ProjActors\Granade.h
+E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\UE4Editor\Inc\ProjActors\Granade.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
