@@ -17,10 +17,96 @@ void EmptyLinkFunctionForGeneratedCodeGranade() {}
 	PROJACTORS_API UClass* Z_Construct_UClass_AGranade();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ProjActors();
+	PROJACTORS_API UFunction* Z_Construct_UFunction_AGranade_BlowupGranade();
+	PROJACTORS_API UFunction* Z_Construct_UFunction_AGranade_RestoreTime();
+	PROJACTORS_API UFunction* Z_Construct_UFunction_AGranade_SlowTime();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AGranade::StaticRegisterNativesAGranade()
 	{
+		UClass* Class = AGranade::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "BlowupGranade", &AGranade::execBlowupGranade },
+			{ "RestoreTime", &AGranade::execRestoreTime },
+			{ "SlowTime", &AGranade::execSlowTime },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGranade_BlowupGranade_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGranade_BlowupGranade_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Granade.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGranade_BlowupGranade_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGranade, nullptr, "BlowupGranade", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGranade_BlowupGranade_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGranade_BlowupGranade_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGranade_BlowupGranade()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGranade_BlowupGranade_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGranade_RestoreTime_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGranade_RestoreTime_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Granade.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGranade_RestoreTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGranade, nullptr, "RestoreTime", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGranade_RestoreTime_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGranade_RestoreTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGranade_RestoreTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGranade_RestoreTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGranade_SlowTime_Statics
+	{
+		struct Granade_eventSlowTime_Parms
+		{
+			float TimeDilatation;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TimeDilatation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGranade_SlowTime_Statics::NewProp_TimeDilatation = { "TimeDilatation", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Granade_eventSlowTime_Parms, TimeDilatation), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGranade_SlowTime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGranade_SlowTime_Statics::NewProp_TimeDilatation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGranade_SlowTime_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Granade.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGranade_SlowTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGranade, nullptr, "SlowTime", sizeof(Granade_eventSlowTime_Parms), Z_Construct_UFunction_AGranade_SlowTime_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGranade_SlowTime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGranade_SlowTime_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGranade_SlowTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGranade_SlowTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGranade_SlowTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGranade_NoRegister()
 	{
@@ -29,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeGranade() {}
 	struct Z_Construct_UClass_AGranade_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -43,6 +130,11 @@ void EmptyLinkFunctionForGeneratedCodeGranade() {}
 	UObject* (*const Z_Construct_UClass_AGranade_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_ProjActors,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGranade_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGranade_BlowupGranade, "BlowupGranade" }, // 4199091114
+		{ &Z_Construct_UFunction_AGranade_RestoreTime, "RestoreTime" }, // 1774266462
+		{ &Z_Construct_UFunction_AGranade_SlowTime, "SlowTime" }, // 2434295055
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGranade_Statics::Class_MetaDataParams[] = {
@@ -69,11 +161,11 @@ void EmptyLinkFunctionForGeneratedCodeGranade() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AGranade_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_AGranade_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -88,7 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeGranade() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGranade, 76306216);
+	IMPLEMENT_CLASS(AGranade, 2155564036);
 	template<> PROJACTORS_API UClass* StaticClass<AGranade>()
 	{
 		return AGranade::StaticClass();

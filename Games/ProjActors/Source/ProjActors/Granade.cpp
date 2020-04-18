@@ -6,6 +6,12 @@
 #include "Components/SphereComponent.h"
 #include "Engine/EngineTypes.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Components/AudioComponent.h"
+#include "TimerManager.h"
+#include "Sound/SoundCue.h"
+#include "Particles/ParticleSystemComponent.h"
+#include "Engine/Engine.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AGranade::AGranade()
@@ -23,12 +29,37 @@ AGranade::AGranade()
 	ActorMesh->SetRelativeScale3D(FVector(0.5f, 0.5f, 0.5f));
 	ActorMesh->SetupAttachment(RootComponent);
 
+	ExplosionSound = CreateDefaultSubobject<UAudioComponent>(FName("Explosion Sound"));
+	ExplosionSound->bAutoActivate = false;
+	ExplosionSound->bAutoDestroy = true;
+	ExplosionSound->SetupAttachment(ActorMesh);
+
+	GranadeExplosion = CreateDefaultSubobject <UParticleSystemComponent>(FName("Explosion particles"));
+	GranadeExplosion->bAutoActivate = false;
+	GranadeExplosion->bAutoDestroy = true;
+	GranadeExplosion->SetupAttachment(ActorMesh);
+
+	ConstructorHelpers::FObjectFinder<USoundCue>GranadeSound(TEXT("SoundCue'/Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue'"));
+
 	ConstructorHelpers::FObjectFinder<UStaticMesh>Granade(TEXT("StaticMesh'/Game/FBX/granada.granada'"));
 
-		if (Granade.Succeeded())
+	ConstructorHelpers::FObjectFinder<UParticleSystem>ExplosionParticle(TEXT("ParticleSystem'/Game/StarterContent/Particles/P_Explosion.P_Explosion'"));
+
+		if (Granade.Succeeded()  && GranadeSound.Succeeded() && ExplosionParticle.Succeeded())
 		{
 			ActorMesh->SetStaticMesh(Granade.Object);
+			ExplosionSound->SetSound(GranadeSound.Object);
+			GranadeExplosion->SetTemplate(ExplosionParticle.Object);
+			
 		}
+
+}
+
+void AGranade::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	Super::EndPlay(EndPlayReason);
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, "Granade destroyed");
+	GetWorldTimerManager().ClearTimer(Timer);
 
 }
 
@@ -36,7 +67,34 @@ AGranade::AGranade()
 void AGranade::BeginPlay()
 {
 	Super::BeginPlay();
+	SlowTime(0.1);
+	ActorMesh ->SetSimulatePhysics(true);
+	ActorMesh->SetEnableGravity(true);
+
+	GetWorldTimerManager().SetTimer(Timer,this,&AGranade::BlowupGranade,5.f,false);
+
 	
+}
+
+void AGranade::SlowTime(float TimeDilatation)
+{
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), TimeDilatation);
+	GetWorldTimerManager().SetTimer(ClockTimer,this,&AGranade::RestoreTime, (3.f * TimeDilatation),false);
+}
+
+void AGranade::RestoreTime()
+{
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1.f);
+	GetWorldTimerManager().ClearTimer(ClockTimer);
+}
+
+void AGranade::BlowupGranade()
+{
+	SetLifeSpan(5.5f);
+	ExplosionSound->Play();
+	SlowTime(0.05);
+	GranadeExplosion->ActivateSystem(true);
+	ActorMesh->SetVisibility(false);
 }
 
 // Called every frame

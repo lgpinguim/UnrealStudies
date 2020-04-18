@@ -14,10 +14,28 @@ class PROJACTORS_API AGranade : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AGranade();
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UFUNCTION()
+		void SlowTime(float TimeDilatation);
+
+	UFUNCTION()
+		void RestoreTime();
+
+	FTimerHandle Timer, ClockTimer;
+
+	class UAudioComponent* ExplosionSound;
+
+	class UParticleSystemComponent* GranadeExplosion;
+
+	UFUNCTION()
+		void BlowupGranade();
+
+
 
 public:	
 	// Called every frame

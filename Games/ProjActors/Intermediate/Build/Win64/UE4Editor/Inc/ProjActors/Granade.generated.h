@@ -13,8 +13,62 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJACTORS_Granade_generated_h
 
-#define ProjActors_Source_ProjActors_Granade_h_12_RPC_WRAPPERS
-#define ProjActors_Source_ProjActors_Granade_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ProjActors_Source_ProjActors_Granade_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execBlowupGranade) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BlowupGranade(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRestoreTime) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RestoreTime(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSlowTime) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_TimeDilatation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SlowTime(Z_Param_TimeDilatation); \
+		P_NATIVE_END; \
+	}
+
+
+#define ProjActors_Source_ProjActors_Granade_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBlowupGranade) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BlowupGranade(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRestoreTime) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RestoreTime(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSlowTime) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_TimeDilatation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SlowTime(Z_Param_TimeDilatation); \
+		P_NATIVE_END; \
+	}
+
+
 #define ProjActors_Source_ProjActors_Granade_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGranade(); \
