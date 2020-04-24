@@ -15,6 +15,7 @@ class PROJACTORS_API AMyGameMode : public AGameModeBase
 	GENERATED_BODY()
 
 		public:
+			AMyGameMode();
 			virtual void BeginPlay() override;
 			virtual void StartPlay() override;
 

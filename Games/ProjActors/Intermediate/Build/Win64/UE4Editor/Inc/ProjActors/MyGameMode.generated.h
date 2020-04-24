@@ -35,7 +35,7 @@ public: \
 
 #define ProjActors_Source_ProjActors_MyGameMode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AMyGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameMode); \
@@ -47,8 +47,6 @@ public:
 
 
 #define ProjActors_Source_ProjActors_MyGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyGameMode(AMyGameMode&&); \
@@ -56,7 +54,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameMode)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyGameMode)
 
 
 #define ProjActors_Source_ProjActors_MyGameMode_h_15_PRIVATE_PROPERTY_OFFSET

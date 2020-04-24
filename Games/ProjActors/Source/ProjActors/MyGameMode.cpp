@@ -7,7 +7,17 @@
 #include "Granade.h"
 #include "Engine/World.h"
 #include "Engine/Engine.h"
+#include "UObject/ConstructorHelpers.h"
 
+AMyGameMode::AMyGameMode()
+{
+	static ConstructorHelpers::FClassFinder<APawn>PlayerPawnBPClass(TEXT("Blueprint'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'"));
+
+		if (PlayerPawnBPClass.Class != nullptr)
+		{
+			DefaultPawnClass = PlayerPawnBPClass.Class;
+		}
+}
 
 void AMyGameMode::StartPlay()
 {
