@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProjActors.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E2AC7690-3821-4F21-9D5B-4B5B01D28DDC}</UniqueIdentifier>
+      <UniqueIdentifier>{80F4C649-6EE4-4A75-98E4-27BB622D8446}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjActors.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1FA5AED9-90C3-48E8-96BA-5B7DFC1705D4}</UniqueIdentifier>
+      <UniqueIdentifier>{3BB55600-1C08-497D-B92A-917F6B9DF682}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,36 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ProjActors">
-      <UniqueIdentifier>{C09FF350-2E27-42C9-8B79-4F94AF0533A1}</UniqueIdentifier>
+      <UniqueIdentifier>{DE5E9651-7471-4B33-8138-D1283DB2032F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProjActors\Granade.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjActors\Granade.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjActors\InsertGranades.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjActors\InsertGranades.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjActors\MyGameMode.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjActors\MyGameMode.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjActors\MyPlayer.cpp">
+      <Filter>Source\ProjActors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjActors\MyPlayer.h">
+      <Filter>Source\ProjActors</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ProjActors\ProjActors.Build.cs">
       <Filter>Source\ProjActors</Filter>
     </None>
@@ -41,27 +68,5 @@
     <ClInclude Include="..\..\Source\ProjActors\ProjActorsGameModeBase.h">
       <Filter>Source\ProjActors</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\ProjActors\Granade.h">
-      <Filter>Source\ProjActors</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProjActors\MyGameMode.h">
-      <Filter>Source\ProjActors</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\ProjActors\InsertGranades.h">
-      <Filter>Source\ProjActors</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\ProjActors\Granade.cpp">
-      <Filter>Source\ProjActors</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ProjActors\MyGameMode.cpp">
-      <Filter>Source\ProjActors</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\ProjActors\InsertGranades.cpp">
-      <Filter>Source\ProjActors</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

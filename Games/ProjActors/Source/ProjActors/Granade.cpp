@@ -12,6 +12,7 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "Engine/Engine.h"
 #include "Kismet/GameplayStatics.h"
+#include "MyPlayer.h"
 
 // Sets default values
 AGranade::AGranade()

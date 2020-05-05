@@ -1,0 +1,7 @@
+E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\UE4Editor\Development\ProjActors\Definitions.ProjActors.h
+E:\Git\UnrealStudies\Games\ProjActors\Source\ProjActors\MyPlayer.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Git\UnrealStudies\Games\ProjActors\Intermediate\Build\Win64\UE4Editor\Inc\ProjActors\MyPlayer.generated.h
